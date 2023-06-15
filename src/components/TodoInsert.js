@@ -30,7 +30,7 @@ const Button = styled.button`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  cursor: pointer;
+  cursor: cell;
   transition: 0.2s background ease-in;
   &:hover {
     background: #adb5bd;
