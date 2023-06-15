@@ -8,7 +8,7 @@ const StyledSpan = styled.span`
   --strike: 0;
   /* background: linear-gradient(90deg, transparent, currentColor 0) no-repeat right center / calc(var(--strike) * 100%) var(--thickness); */
   background: linear-gradient(to right, tomato 40%, transparent) no-repeat right center / calc(var(--strike) * 100%) var(--thickness);
-  transition: background-size 1s ease;
+  transition: background-size 0.5s cubic-bezier(0.565, 0.105, 0.895, 0.07);
   /* transition: background-size 1s ease; */
   font: 25px Arial;
   padding: 0 0.2em;
