@@ -81,7 +81,9 @@ const TodoContainer = () => {
   const title = "일정 관리";
   return (
     <TodoContainerBlock className="todo-container" color="black">
-      <AppTitle className="todo-title">{title}</AppTitle>
+      <AppTitle className="todo-title">
+        <span>{title}</span>
+      </AppTitle>
       <TodoInsert insertItem={insertItem}></TodoInsert>
       <TodoList todoList={todoList} toggleItem={toggleItem} removeItem={removeItem} updateItem={updateItem}></TodoList>
     </TodoContainerBlock>
